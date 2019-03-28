@@ -7,7 +7,7 @@ title: Behovstavlan - Kastrullen
   {% for post in site.posts %}
     <div class="card">
       {% if post.image %}
-        <img class="card-img-top" src="{{ post.image }}" alt="post.title">
+        <img class="card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
       {% endif %}
       <div class="card-body">
         <h5 class="card-title">
