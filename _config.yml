@@ -1,1 +1,9 @@
-theme: jekyll-theme-minimal
+title: Varberg Popcorn
+description: >
+  Tester för en mer värdefull framtid
+author: Anders Dalén
+email: anders.dalen@ri.se
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

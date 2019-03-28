@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+    </p>
+    <img src="{{ page.image }}" alt="{{ page.title }}" />
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+</article>
