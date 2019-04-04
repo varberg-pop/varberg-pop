@@ -2,10 +2,9 @@
 layout: post
 image: /assets/img/stephane-yaich-644691-unsplash.jpg
 excerpt_separator: <!--more-->
-tags: lösning, centrum
-# Namnet på filen är också titeln. Om du vill ändra
-# titeln så du göra det här nedan genom att ta bort #
-# title: NY-TITEL
+needid:
+  - '123' # /needs/minska-bilkörande-i-centrum'
+  - '127' # /needs/höga-bullernivåer'
 ---
 Mindre eldrivna transportfordon i staden <!--more-->
 Kan transportera både gods och avfall, men också personliga varutransporter.
