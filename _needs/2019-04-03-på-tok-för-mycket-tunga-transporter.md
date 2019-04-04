@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/lorry-transport-transportation-system-2832.jpg
 excerpt_separator: <!--more-->
 title: På tok för mycket tunga transporter
 ---

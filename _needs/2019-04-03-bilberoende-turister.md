@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/asphalt-automobile-beach-1118448.jpg
 excerpt_separator: <!--more-->
 needid: '124'
 title: Bilberoende turister

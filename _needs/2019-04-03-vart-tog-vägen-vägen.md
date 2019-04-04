@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/architecture-blur-chain-link-fence-951409.jpg
 excerpt_separator: <!--more-->
 tags: behov centrum
 title: Vart tog vägen vägen

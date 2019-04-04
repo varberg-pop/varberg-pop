@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/beautiful-girl-headset-209204.jpg
 excerpt_separator: <!--more-->
 tags: behov landsbygd
 title: Höga bullernivåer

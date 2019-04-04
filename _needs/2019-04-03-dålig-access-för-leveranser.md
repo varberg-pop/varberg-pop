@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/architecture-building-business-2047397.jpg
 excerpt_separator: <!--more-->
 tags: behov landsbygd
 title: Dålig access för leveranser

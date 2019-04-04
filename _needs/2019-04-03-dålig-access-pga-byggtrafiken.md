@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/BILDNAMN
+image: /assets/img/activity-blueprint-building-583393.jpg
 excerpt_separator: <!--more-->
 tags: behov landsbygd
 title: Dålig access pga byggtrafiken

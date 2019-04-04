@@ -9,7 +9,6 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
-        {{page.id}}
       </time>
     </p>
     <img src="{{ page.image | relative_url }}" alt="{{ page.title | capitalize }}" />
