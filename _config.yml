@@ -4,6 +4,13 @@ description: >
 author: Anders Dalén
 email: anders.dalen@ri.se
 
+baseurl: /popcorn
+collections:
+  needs:
+    output: true
+  solutions:
+    output: true
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -4,18 +4,20 @@ title: Behovstavlan - Kastrullen
 ---
 
 <div class="card-columns">
-  {% for post in site.posts %}
+  {% for need in site.needs %}
+
     <div class="card">
-      {% if post.image %}
-        <img class="card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      {% if need.image %}
+        <img class="card-img-top" src="{{ need.image | relative_url }}" alt="{{ need.title }}">
       {% endif %}
       <div class="card-body">
         <h5 class="card-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <a href="{{ need.url | relative_url }}">{{ need.title }}</a>
         </h5>
-        <p class="card-text">{{ post.excerpt }}</p>
-        <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small></p>
+        <p class="card-text">{{ need.excerpt }}</p>
+        <p class="card-text"><small class="text-muted">{{ need.date | date: "%Y-%m-%d" }}</small></p>
       </div>
     </div>
+
   {% endfor %}
 </div>

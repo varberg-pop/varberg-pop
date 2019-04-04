@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
     </p>
-    <img src="{{ page.image }}" alt="{{ page.title }}" />
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
   </header>
 
   <section>

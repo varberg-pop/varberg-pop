@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+        {{page.id}}
+      </time>
+    </p>
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title | capitalize }}" />
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+  <h2> Föreslagna lösningar </h2>
+  <div class="card-columns">
+    {% for solution in site.solutions %}
+      {% if solution.needid contains page.needid %}
+        <div class="card">
+          {% if solution.image %}
+            <img class="card-img-top" src="{{ solution.image | relative_url }}" alt="{{ solution.title }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+            </h5>
+            <p class="card-text">{{ solution.excerpt }}</p>
+            <p class="card-text"><small class="text-muted">{{ solution.date | date: "%Y-%m-%d" }}</small></p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</article>
