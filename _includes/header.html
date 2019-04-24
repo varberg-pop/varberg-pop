@@ -11,22 +11,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    {% assign current = page.url | downcase | split: '/' %}
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="{{ '/' | relative_url }}">Hem <span class="sr-only">(current)</span></a>
+        <li {% if current[1] == null %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '/' | relative_url }}" >Hem</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ '/behov' | relative_url }}>Behov/Värme</a>
+        <li {% if current[1] == 'behov.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '/behov' | relative_url }}" >Behov</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/behovstavlan' | relative_url }}">Behovstavlan/Kastrullen</a>
+        <li {% if current[1] == 'behovstavlan.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '/behovstavlan' | relative_url }}" >Behovstavlan</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Lösning/Kärna</a>
+        <li {% if current[1] == 'losning.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '#' | relative_url }}" >Lösning</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Test/Popcorn</a>
+        <li {% if current[1] == 'test.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '/test' | relative_url }}" >Test</a>
+        </li>
+        <li {% if current[1] == 'about.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '/about' | relative_url }}" >Projektbeskrivning</a>
         </li>
       </ul>
     </div>

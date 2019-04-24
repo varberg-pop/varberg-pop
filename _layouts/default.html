@@ -14,8 +14,20 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="container">
-
-          {{ content }}
+          {% if page.sammanfattning %}
+            <div class="row">
+              <div class="col-md-8">
+                {{ content }}
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-secondary">
+                  {{ page.sammanfattning }}
+                </div>
+              </div>
+            </div>
+          {% else %}
+            {{ content }}
+          {% endif %}
 
         </div>
       </div>
