@@ -35,8 +35,8 @@ Kommuner står framför ett smörgåsbord av lösningar och tekniska innovatione
 
 Varberg Pop! föreslår att istället för att försöka *utreda* så många dimensioner som möjligt så hittar vi vägar att *testa* så många som möjligt. De två huvudsakliga målen för testbädden är dels att ge kommunen ett konkret, tillförlitligt underlag för trygga beslut och dels att skapa rätt förutsättningar för Västkustens kreativa mittpunkts framtid i linje med de globala målen i Agenda 2030.
 
-Processen är enkel:
-1. Du vrider upp värmen genom att beskriva din frustration på formuläret och samlar ihop 10 personer som känner igen sig i den beskrivning.
-2. En schysst och fullständigt ifylld blankett hamnar på Varbergs offentliga behovstavla. På behovstavlan kan vstrong som helst läsa, hålla med och vrida upp värmen ytterliggare.
+Den preliminära processen är enkel:
+1. Värmen vrids upp genom att frustrationen med mobilitet och transporter i Varberg beskrivs. Ytterliggare värme läggs till då signaturer från ett antal personer som känner igen sig i beskrivningen kommer in.
+2. En schysst och fullständigt ifylld beskrivning hamnar på Varbergs offentliga behovstavla. På behovstavlan kan vem som helst läsa, hålla med och vrida upp värmen ytterligare.
 3. Kärnan eller lösningen på behovet beskrivs. Passar lösningen många så går den vidare till kommunens referensgrupp som godkänner den för test.
 4. POP! Nu sätts idén på prov i verkligheten. En minimal version av lösningen testas och reaktioner samlas in.
