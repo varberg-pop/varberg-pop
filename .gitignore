@@ -42,3 +42,4 @@ Gemfile*
 _site
 .jekyll-metadata
 *.xcf
+_config.yml
