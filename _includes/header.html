@@ -19,17 +19,17 @@
           <a class="nav-link" href="{{ '/' | relative_url }}" >Hem</a>
         </li>
         <li {% if current[1] == 'behov.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
-          <a class="nav-link" href="{{ '/behov' | relative_url }}" >Behov</a>
+          <a class="nav-link" href="{{ '/behov.html' | relative_url }}" >Behov</a>
         </li>
         <li {% if current[1] == 'behovstavlan.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
-          <a class="nav-link" href="{{ '/behovstavlan' | relative_url }}" >Behovstavlan</a>
+          <a class="nav-link" href="{{ '/behovstavlan.html' | relative_url }}" >Behovstavlan</a>
         </li>
         <li {% if current[1] == 'losning.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
           <a class="nav-link" href="{{ '#' | relative_url }}" >Lösning</a>
         </li>
-        <li {% if current[1] == 'test.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
-          <a class="nav-link" href="{{ '/test' | relative_url }}" >Test</a>
-        </li>
+        <!--li {% if current[1] == 'test.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ '#' | relative_url }}" >Test</a>
+        </li-->
         <li {% if current[1] == 'about.html' %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
           <a class="nav-link" href="{{ '/about' | relative_url }}" >Projektbeskrivning</a>
         </li>

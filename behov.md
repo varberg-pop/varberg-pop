@@ -24,6 +24,6 @@ title: Behovet - Värmen
     <textarea class="form-control" id="formGroupEffect" name="effect" placeholder="Vilket eller vilka områden är kopplade till behovet"></textarea>
   </div>
   <div class="form-group">
-    <input type="submit" value="Send">
+    <input type="submit" value="Skicka">
   </div>
 </form>
