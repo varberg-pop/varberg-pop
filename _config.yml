@@ -4,7 +4,7 @@ description: >
 author: Anders Dalén
 email: anders.dalen@ri.se
 
-baseurl: /popcorn
+baseurl: /
 collections:
   needs:
     output: true
